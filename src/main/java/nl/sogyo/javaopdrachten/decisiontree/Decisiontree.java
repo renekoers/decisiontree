@@ -1,4 +1,4 @@
-package main.java.nl.sogyo.javaopdrachten.decisiontree;
+package nl.sogyo.javaopdrachten.decisiontree;
 
 // Imports
 import java.util.*;
@@ -6,7 +6,7 @@ import java.io.*;
 
 // Class
 public class Decisiontree{
-  private File file = new File("D:/Opdrachten/java-opdrachten/src/main/resources/intermediate/decision-tree-data.txt");
+  private File file = new File("src/main/resources/decision-tree-data.txt");
   private Scanner scnrInput = new Scanner(System.in);
   private Node currentNode;
   private String userDecision;
