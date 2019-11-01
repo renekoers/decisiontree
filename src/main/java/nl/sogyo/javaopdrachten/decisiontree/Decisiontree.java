@@ -18,7 +18,7 @@ public class Decisiontree{
     decisiontree.treeDecisionProcess();
   }
 
-  // Reads every line of the file and splits each line into 2D Arraylist
+  // Reads every line of the file and creates Node and Edge objects and an Edge String ArrayList.
   private void filterTree(){
     ArrayList<ArrayList<String>> edgeStringArrays = new ArrayList<>();
     HashMap<String, Node> nodeObjects = new HashMap<>();
